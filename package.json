@@ -2,13 +2,16 @@
   "name": "dearborn-immigration-service",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://dearbornimmigration99-netizen.github.io/Dearborn-service/",
+  "homepage": "https://dearbornimmigration99-netizen.github.io/dearborn-booking/",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   },
   "keywords": [],
   "author": "",
