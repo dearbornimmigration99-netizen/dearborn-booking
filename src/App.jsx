@@ -65,11 +65,6 @@ function App() {
           {/* ── LEFT: Main scrollable content ── */}
           <div className="main-content">
 
-            {/* Hero Banner */}
-            <div className="hero-banner">
-              <img src={`${import.meta.env.BASE_URL}assets/hero.jpeg`} alt="Dearborn Immigration Services Hero" className="hero-image" />
-            </div>
-
             {/* Provider Header Stacked */}
             <div className="provider-header-stacked">
               <div className="avatar-container-stacked">

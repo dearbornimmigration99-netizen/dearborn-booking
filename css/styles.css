@@ -31,6 +31,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
+    overflow-x: hidden;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
     align-items: center;
     padding: 0 1rem 2rem 1rem;
     padding-top: 5rem; /* Space for fixed header */
+    overflow-x: hidden;
 }
 
 /* =========================================
@@ -297,24 +299,6 @@ body {
     border-radius: 50%;
 }
 
-/* =========================================
-   Hero Banner
-   ========================================= */
-.hero-banner {
-    width: 100%;
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    background-color: var(--border-color);
-}
-
-.hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    background-color: var(--border-color);
-}
-
 .theme-toggle-btn {
     position: absolute;
     top: 1rem;
@@ -356,7 +340,6 @@ body {
     font-weight: 700;
     flex-shrink: 0;
     border: 4px solid var(--bg-page);
-    margin-top: -30px; /* Overlap hero banner slightly */
     z-index: 2;
 }
 
@@ -689,10 +672,6 @@ body {
     .provider-header-stacked {
         flex-direction: column;
         text-align: center;
-    }
-
-    .avatar-container-stacked {
-        margin-top: -40px;
     }
 
     .reviews-inline {
