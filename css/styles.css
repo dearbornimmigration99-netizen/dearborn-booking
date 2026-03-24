@@ -45,6 +45,7 @@ body {
     padding: 0 1rem 2rem 1rem;
     padding-top: 5rem; /* Space for fixed header */
     overflow-x: hidden;
+    min-width: 480px; /* Pre-stretch layout to accommodate the reviews widget without horizontal jumping */
 }
 
 /* =========================================
@@ -531,6 +532,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
+    min-height: 850px; /* Pre-stretch vertical space so the footer doesn't jump */
 }
 
 .reviews-section-container h2 {
@@ -704,5 +706,9 @@ body {
 
     .services-stacked {
         padding: 2rem 1.5rem;
+    }
+
+    .commonninja_component {
+        min-height: 1200px; /* Pre-stretch taller vertical space on mobile */
     }
 }
