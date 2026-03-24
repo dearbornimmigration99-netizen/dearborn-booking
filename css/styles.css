@@ -132,7 +132,9 @@ body {
     width: 340px;
     flex-shrink: 0;
     position: sticky;
-    top: calc(1rem + 80px); /* header height + spacing */
+    top: 90px;
+    align-self: flex-start;
+    height: fit-content;
 }
 
 .sidebar-card {
@@ -651,7 +653,23 @@ body {
     .provider-sidebar {
         position: static;
         width: 100%;
-        order: -1; /* Show sidebar first on mobile */
+        margin-top: 1rem;
+    }
+    
+    .sidebar-photo-wrap {
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+    .sidebar-card {
+        text-align: center;
+        align-items: center;
+    }
+
+    .sidebar-info-row, .sidebar-hours-title, .sidebar-hours-grid {
+        justify-content: center;
+        text-align: center;
     }
     
     .header-content {

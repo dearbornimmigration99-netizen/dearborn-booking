@@ -224,18 +224,6 @@ function App() {
 
               <div className="sidebar-divider"></div>
 
-              <div className="sidebar-info-row">
-                <i className='bx bx-map-pin'></i>
-                <span>835 Mason St Suite A-332<br />Dearborn, MI 48124</span>
-              </div>
-
-              <div className="sidebar-info-row">
-                <i className='bx bx-phone'></i>
-                <span>+1 313 290-0040</span>
-              </div>
-
-              <div className="sidebar-divider"></div>
-
               <div className="sidebar-hours">
                 <div className="sidebar-hours-title"><i className='bx bx-time'></i> Working Hours</div>
                 <div className="sidebar-hours-grid">
