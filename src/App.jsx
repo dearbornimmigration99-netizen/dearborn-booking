@@ -37,13 +37,13 @@ function App() {
     <>
       <header className="header">
         <div className="header-content">
-          <div className="header-contact">
+          <a href="tel:+13132900040" className="header-contact" style={{ textDecoration: 'none', color: 'inherit' }}>
             <i className='bx bx-phone-call'></i>
             <span>+1 313 290-0040</span>
-          </div>
+          </a>
           <nav className="header-nav">
             <a href="#services-section">Services</a>
-            <a href="#reviews-section">Review</a>
+            <a href="#reviews-section">Reviews</a>
             <a href="#contact-section">Contact</a>
           </nav>
         </div>
