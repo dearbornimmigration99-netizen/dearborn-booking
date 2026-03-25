@@ -111,7 +111,7 @@ function App() {
                   <i className='bx bx-chevron-right'></i>
                 </div>
 
-                <div className="service-item" style={{ cursor: 'default' }}>
+                <div className="service-item" onClick={() => window.open('https://api.whatsapp.com/send?phone=13132900040', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
                       <h4>Translation</h4>
@@ -120,9 +120,10 @@ function App() {
                       </div>
                     </div>
                   </div>
+                  <i className='bx bx-chevron-right'></i>
                 </div>
 
-                <div className="service-item" style={{ cursor: 'default' }}>
+                <div className="service-item" onClick={() => window.open('https://api.whatsapp.com/send?phone=13132900040', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
                       <h4>Documents Review</h4>
@@ -131,13 +132,14 @@ function App() {
                       </div>
                     </div>
                   </div>
+                  <i className='bx bx-chevron-right'></i>
                 </div>
               </div>
             </section>
 
-            {/* Client Reviews */}
+            {/* Testimonials */}
             <section className="reviews-section-container" id="reviews-section">
-              <h2>Client Reviews</h2>
+              <h2>Testimonials</h2>
               <div className="commonninja_component pid-82613e74-4d30-4c4c-bd16-d574673d87b7"></div>
             </section>
 
@@ -159,8 +161,8 @@ function App() {
                   <a href="https://www.facebook.com/share/184o73vjdX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="social-icon social-facebook">
                     <i className='bx bxl-facebook'></i>
                   </a>
-                  <a href="https://api.whatsapp.com/send?phone=13132900040" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="social-icon social-whatsapp">
-                    <i className='bx bxl-whatsapp'></i>
+                  <a href="https://youtube.com/@dearbornimmigration?si=QFVF08sJccAVELkp" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="social-icon social-youtube">
+                    <i className='bx bxl-youtube'></i>
                   </a>
                 </div>
               </div>
