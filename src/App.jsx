@@ -149,7 +149,7 @@ function App() {
                 <h3>Contact us</h3>
                 <div className="contact-links">
                   <a href="tel:+13132900040"><i className='bx bx-phone'></i> +1 313 290-0040</a>
-                  <a href="mailto:Dearbornimmigration99@gmail.com"><i className='bx bx-envelope'></i> Dearbornimmigration99@gmail.com</a>
+                  <a href="mailto:info@Dearbornimmigration.com"><i className='bx bx-envelope'></i> info@Dearbornimmigration.com</a>
                 </div>
                 <div className="social-links">
                   <a href="https://www.instagram.com/dearbornimmigration?igsh=NmgxM3piNHNjeWlo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="social-icon social-instagram">
