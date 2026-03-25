@@ -71,7 +71,7 @@ function App() {
                 <img src={`${import.meta.env.BASE_URL}assets/profile.png`} alt="Ali Yunus - Dearborn Immigration Services" className="avatar-photo" />
               </div>
               <div className="provider-title-row">
-                <h1>Dearborn Immigration Service</h1>
+                <h1>Dearborn Immigration Services</h1>
                 <div className="reviews-inline">
                   <span className="rating-score">4.9</span>
                   <div className="stars">
@@ -185,7 +185,7 @@ function App() {
             </div>
 
             <div className="booking-footer">
-              <p>Powered by Dearborn Immigration Service</p>
+              <p>Powered by Dearborn Immigration Services</p>
             </div>
           </div>
 
