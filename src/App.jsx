@@ -95,23 +95,6 @@ function App() {
               <h2>Services</h2>
 
               <div className="service-category">
-                <h3>Consultations & Services</h3>
-
-                <div className="service-item consultation-item" onClick={() => window.open('https://calendly.com/dearbornimmigration99/consultation', '_blank')}>
-                  <div className="service-info">
-                    <div className="service-text">
-                      <h4>Consultation</h4>
-                      <div className="service-meta">
-                        <span>15 mins</span>
-                        <span className="dot-separator">·</span>
-                        <span className="details-link">Case discussion</span>
-                        <span className="dot-separator">·</span>
-                        <span className="price">$50</span>
-                      </div>
-                    </div>
-                  </div>
-                  <i className='bx bx-chevron-right'></i>
-                </div>
 
                 <div className="service-item" style={{ cursor: 'default' }}>
                   <div className="service-info">
@@ -119,8 +102,6 @@ function App() {
                       <h4>Translation</h4>
                       <div className="service-meta">
                         <span className="details-link" style={{ textDecoration: 'none' }}>Document translation</span>
-                        <span className="dot-separator">·</span>
-                        <span className="price">$25</span>
                       </div>
                     </div>
                   </div>
@@ -132,8 +113,6 @@ function App() {
                       <h4>Documents Review</h4>
                       <div className="service-meta">
                         <span className="details-link" style={{ textDecoration: 'none' }}>Application review</span>
-                        <span className="dot-separator">·</span>
-                        <span className="price">$15</span>
                       </div>
                     </div>
                   </div>
