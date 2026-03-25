@@ -524,9 +524,12 @@ body {
    Reviews Section
    ========================================= */
 .reviews-section-container {
-    margin-top: 1rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border-color);
+    margin-top: 2rem; /* Give it space */
+    padding: 2rem;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04);
     width: 100%;
     max-width: 100%;
     min-width: 0;
@@ -540,7 +543,7 @@ body {
     min-width: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    min-height: 850px; /* Pre-stretch vertical space so the footer doesn't jump */
+    min-height: 400px; /* Reduced to avoid excessive empty space after load */
 }
 
 /* Ensure the injected iframe honors the container width */
@@ -550,9 +553,10 @@ body {
 }
 
 .reviews-section-container h2 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 /* =========================================
@@ -718,11 +722,13 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .services-stacked {
-        padding: 2rem 1.5rem;
+    .reviews-section-container {
+        padding: 1.5rem 1rem;
+        border-radius: 12px;
+        margin-top: 1.5rem;
     }
 
-    .commonninja_component {
-        min-height: 1200px; /* Pre-stretch taller vertical space on mobile */
+    .services-stacked {
+        padding: 2rem 1.5rem;
     }
 }
