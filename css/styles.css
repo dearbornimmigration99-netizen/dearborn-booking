@@ -45,7 +45,7 @@ body {
     padding: 0 1rem 2rem 1rem;
     padding-top: 5rem; /* Space for fixed header */
     overflow-x: hidden;
-    min-width: 480px; /* Pre-stretch layout to accommodate the reviews widget without horizontal jumping */
+    min-width: 320px; /* Allow layout to fit mobile screens */
 }
 
 /* =========================================
@@ -533,6 +533,12 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
     min-height: 850px; /* Pre-stretch vertical space so the footer doesn't jump */
+}
+
+/* Ensure the injected iframe honors the container width */
+.commonninja_component iframe {
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 .reviews-section-container h2 {
