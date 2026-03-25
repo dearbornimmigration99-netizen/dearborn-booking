@@ -99,7 +99,6 @@ function App() {
 
                 <div className="service-item consultation-item" onClick={() => window.open('https://calendly.com/dearbornimmigration99/consultation', '_blank')}>
                   <div className="service-info">
-                    <img src="https://ui-avatars.com/api/?name=Consultation&background=111111&color=fff" alt="Consultation" className="service-thumb" />
                     <div className="service-text">
                       <h4>Consultation</h4>
                       <div className="service-meta">
@@ -116,7 +115,6 @@ function App() {
 
                 <div className="service-item" style={{ cursor: 'default' }}>
                   <div className="service-info">
-                    <img src="https://ui-avatars.com/api/?name=Translation&background=111111&color=fff" alt="Translation" className="service-thumb" />
                     <div className="service-text">
                       <h4>Translation</h4>
                       <div className="service-meta">
@@ -130,7 +128,6 @@ function App() {
 
                 <div className="service-item" style={{ cursor: 'default' }}>
                   <div className="service-info">
-                    <img src="https://ui-avatars.com/api/?name=Review&background=111111&color=fff" alt="Documents Review" className="service-thumb" />
                     <div className="service-text">
                       <h4>Documents Review</h4>
                       <div className="service-meta">
