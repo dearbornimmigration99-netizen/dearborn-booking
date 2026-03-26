@@ -16,6 +16,9 @@ function App() {
   useEffect(() => {
     // Add shadow to header on scroll (if header exists)
     const handleScroll = () => {
+      // Update scroll position for animations
+      document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+
       const header = document.querySelector('.header');
       if (header) {
         if (window.scrollY > 10) {
@@ -90,6 +93,22 @@ function App() {
               </div>
             </div>
 
+            <div className="brand-highlights">
+              <div className="highlight-row">
+                <div className="highlight-tag">
+                  <i className='bx bx-check-shield'></i>
+                  <span>+9 years of experience</span>
+                </div>
+                <div className="highlight-tag">
+                  <i className='bx bx-globe'></i>
+                  <span>Serving 50 states</span>
+                </div>
+              </div>
+              <p className="highlight-description">
+                We help you to <strong>Get Clear Answers</strong> and <strong>Move Your Case Forward With Confidence</strong>.
+              </p>
+            </div>
+
             {/* Services List */}
             <section className="services-stacked" id="services-section">
               <h2>Services</h2>
@@ -111,12 +130,13 @@ function App() {
                   <i className='bx bx-chevron-right'></i>
                 </div>
 
-                <div className="service-item" onClick={() => window.open('https://api.whatsapp.com/send?phone=13132900040', '_blank')} style={{ cursor: 'pointer' }}>
+                <div className="service-item" onClick={() => window.open('https://calendly.com/dearbornimmigration99/consultation', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
-                      <h4>Translation</h4>
-                      <div className="service-meta">
-                        <span className="details-link" style={{ textDecoration: 'none' }}>Document translation</span>
+                      <h4>Full Case Preparation</h4>
+                      <div className="service-meta" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '4px' }}>
+                        <span className="details-link" style={{ textDecoration: 'none' }}>From start to finish — forms, documents, and full follow-up</span>
+                        <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>(Consultation fee will be credited toward full service price)</span>
                       </div>
                     </div>
                   </div>
@@ -126,9 +146,10 @@ function App() {
                 <div className="service-item" onClick={() => window.open('https://api.whatsapp.com/send?phone=13132900040', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
-                      <h4>Documents Review</h4>
-                      <div className="service-meta">
-                        <span className="details-link" style={{ textDecoration: 'none' }}>Application review</span>
+                      <h4>Translation</h4>
+                      <div className="service-meta" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '4px' }}>
+                        <span className="details-link" style={{ textDecoration: 'none' }}>Accurate document translation for official and professional</span>
+                        <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>(Documents will be uploaded via WhatsApp)</span>
                       </div>
                     </div>
                   </div>
@@ -184,6 +205,13 @@ function App() {
               </div>
             </div>
 
+            <div className="disclaimer-section">
+              <div className="disclaimer-text">
+                We provide immigration document preparation and guidance based on experience.<br />
+                We are not attorneys and do not provide legal advice.
+              </div>
+            </div>
+
             <div className="booking-footer">
               <p>Powered by Dearborn Immigration Services</p>
             </div>
@@ -224,7 +252,7 @@ function App() {
 
               <a href="https://calendly.com/dearbornimmigration99/consultation" target="_blank" rel="noopener noreferrer" className="sidebar-book-btn">
                 <i className='bx bx-calendar-check'></i>
-                Book a Consultation
+                Book your consultation
               </a>
             </div>
           </aside>
@@ -234,7 +262,7 @@ function App() {
         {/* Floating Book Button */}
         <a href="https://calendly.com/dearbornimmigration99/consultation" target="_blank" rel="noopener noreferrer" className="floating-book-btn">
           <i className='bx bx-calendar-check'></i>
-          Book a call
+          Book your consultation
         </a>
       </main>
     </>
