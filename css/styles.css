@@ -548,6 +548,13 @@ body {
     text-decoration: none;
     z-index: 1000;
     transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+    display: none; /* Hide by default on desktop/tablet */
+}
+
+@media (max-width: 600px) {
+    .floating-book-btn {
+        display: flex; /* Show only on mobile when sidebar is stacked */
+    }
 }
 
 .floating-book-btn:hover {
