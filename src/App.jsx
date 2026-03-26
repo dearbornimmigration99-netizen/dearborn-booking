@@ -2,16 +2,6 @@ import React, { useState, useEffect } from 'react';
 import '../css/styles.css';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
-  useEffect(() => {
-    // Apply dark theme based on state
-    if (isDarkMode) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
-  }, [isDarkMode]);
 
   useEffect(() => {
     // Add shadow to header on scroll (if header exists)
@@ -53,14 +43,6 @@ function App() {
       </header>
 
       <main className="booking-container" style={{ position: 'relative' }}>
-        {/* Dark Mode Toggle */}
-        <button
-          onClick={() => setIsDarkMode(!isDarkMode)}
-          className="theme-toggle-btn"
-          aria-label="Toggle Dark Mode"
-        >
-          <i className={isDarkMode ? 'bx bx-sun' : 'bx bx-moon'} style={{ fontSize: '1.25rem' }}></i>
-        </button>
 
         {/* Two-Column Layout */}
         <div className="page-layout">
