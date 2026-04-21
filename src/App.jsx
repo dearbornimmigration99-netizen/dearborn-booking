@@ -140,6 +140,33 @@ function App() {
               </div>
             </section>
 
+            {/* Why Choose Us */}
+            <section className="why-choose-section">
+              <h2>Why Choose Us</h2>
+              <div className="why-choose-grid">
+                <div className="why-choose-item">
+                  <i className='bx bx-shield-quarter'></i>
+                  <p>Dearborn Immigration Services provides practical, real-world support for individuals navigating U.S. immigration processes.</p>
+                </div>
+                <div className="why-choose-item">
+                  <i className='bx bx-folder-open'></i>
+                  <p>We help you understand your options, organize your paperwork, and move forward with clarity.</p>
+                </div>
+                <div className="why-choose-item">
+                  <i className='bx bx-target-lock'></i>
+                  <p>Our focus is simple: clarity, accuracy, and preparation — helping you avoid common mistakes that can delay your case.</p>
+                </div>
+                <div className="why-choose-item">
+                  <i className='bx bx-walk'></i>
+                  <p>We stay with you throughout the process, helping you stay organized and confident every step of the way.</p>
+                </div>
+              </div>
+              <a href="https://calendly.com/dearbornimmigration-info/15-mins-consultation" target="_blank" rel="noopener noreferrer" className="why-choose-cta">
+                <i className='bx bx-calendar-check'></i>
+                Book your consultation
+              </a>
+            </section>
+
             {/* Testimonials */}
             <section className="reviews-section-container" id="reviews-section">
               <h2>Testimonials</h2>
