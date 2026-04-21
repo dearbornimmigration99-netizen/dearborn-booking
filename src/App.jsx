@@ -96,7 +96,7 @@ function App() {
               <h2>Services</h2>
 
               <div className="service-category">
-                <div className="service-item consultation-item" onClick={() => window.open('https://calendly.com/dearbornimmigration99/consultation', '_blank')} style={{ cursor: 'pointer' }}>
+                <div className="service-item consultation-item" onClick={() => window.open('https://calendly.com/dearbornimmigration-info/15-mins-consultation', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
                       <h4>Consultation</h4>
@@ -112,7 +112,7 @@ function App() {
                   <i className='bx bx-chevron-right'></i>
                 </div>
 
-                <div className="service-item" onClick={() => window.open('https://calendly.com/dearbornimmigration99/consultation', '_blank')} style={{ cursor: 'pointer' }}>
+                <div className="service-item" onClick={() => window.open('https://calendly.com/dearbornimmigration-info/15-mins-consultation', '_blank')} style={{ cursor: 'pointer' }}>
                   <div className="service-info">
                     <div className="service-text">
                       <h4>Full Case Preparation</h4>
@@ -232,7 +232,7 @@ function App() {
 
               <div className="sidebar-divider"></div>
 
-              <a href="https://calendly.com/dearbornimmigration99/consultation" target="_blank" rel="noopener noreferrer" className="sidebar-book-btn">
+              <a href="https://calendly.com/dearbornimmigration-info/15-mins-consultation" target="_blank" rel="noopener noreferrer" className="sidebar-book-btn">
                 <i className='bx bx-calendar-check'></i>
                 Book your consultation
               </a>
@@ -242,7 +242,7 @@ function App() {
         </div>{/* end .page-layout */}
 
         {/* Floating Book Button */}
-        <a href="https://calendly.com/dearbornimmigration99/consultation" target="_blank" rel="noopener noreferrer" className="floating-book-btn">
+        <a href="https://calendly.com/dearbornimmigration-info/15-mins-consultation" target="_blank" rel="noopener noreferrer" className="floating-book-btn">
           <i className='bx bx-calendar-check'></i>
           Book your consultation
         </a>
